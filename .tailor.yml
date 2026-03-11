@@ -3,6 +3,7 @@ license: BlueOak-1.0.0
 
 repository:
   description: Homebrew tap for Wimpy's World tools 🚰
+  homepage: https://github.com/wimpysworld/homebrew-tap
   has_wiki: false
   has_discussions: false
   has_projects: false
@@ -23,7 +24,13 @@ repository:
   automated_security_fixes_enabled: false
   default_workflow_permissions: write
   can_approve_pull_request_reviews: true
-  topics: []
+  topics:
+    - homebrew-tap
+    - homebrew-formula
+    - homebrew-formulae
+    - macos-package
+    - tailor
+    - ia-get
 
 labels:
   - name: bug
