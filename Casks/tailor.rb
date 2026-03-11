@@ -14,22 +14,22 @@ cask "tailor" do
   on_macos do
     on_intel do
       url "https://github.com/wimpysworld/tailor/releases/download/v#{version}/tailor_#{version}_darwin_amd64.tar.gz"
-      sha256 "1a1fa60aeff5de4dc1eacffb13853582d018a73186fe9ab5e1ef56e79fcf5858"
+      sha256 "1cb4b22bc625128a0866962b364b3221df35ad57e27e4dc9d07ee5f13d0c6546"
     end
     on_arm do
       url "https://github.com/wimpysworld/tailor/releases/download/v#{version}/tailor_#{version}_darwin_arm64.tar.gz"
-      sha256 "631c397e5bad07eb8ef335ad28f907dc3c65072aebae0e3a68a0b1e09c53da6d"
+      sha256 "4c9aa9979019fc1798249b62f0fa6149322d89dafeb79e5c529549ad3963f3d4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/wimpysworld/tailor/releases/download/v#{version}/tailor_#{version}_linux_amd64.tar.gz"
-      sha256 "04c0f81c8921e38c61c1a234a92824896f7701e76310a0d63202d2a385b85924"
+      sha256 "d2be15e1de2bf75ed03a52e6d029de9d96871f5fc7ba752a1fc1aae92c7bb856"
     end
     on_arm do
       url "https://github.com/wimpysworld/tailor/releases/download/v#{version}/tailor_#{version}_linux_arm64.tar.gz"
-      sha256 "360ac4ea7da331e15b2383fe4d7870c679905f5b80110ccb87be8a3f0370de95"
+      sha256 "188b724589ad32c6dcd2238214fb8d96918fc7688792444a95d4acb7a991d641"
     end
   end
 
