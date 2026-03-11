@@ -2,7 +2,7 @@
 license: BlueOak-1.0.0
 
 repository:
-  description: Homebrew tap for Wimpy's World tools 🚰
+  description: "Homebrew tap for Wimpy's World tools 🚰"
   homepage: https://github.com/wimpysworld/homebrew-tap
   has_wiki: false
   has_discussions: false
@@ -25,12 +25,12 @@ repository:
   default_workflow_permissions: write
   can_approve_pull_request_reviews: true
   topics:
-    - homebrew-tap
     - homebrew-formula
     - homebrew-formulae
+    - homebrew-tap
+    - ia-get
     - macos-package
     - tailor
-    - ia-get
 
 labels:
   - name: bug
@@ -86,7 +86,7 @@ swatches:
     alteration: always
 
   - path: .github/workflows/tailor-security.yml
-    alteration: never
+    alteration: always
 
   - path: .github/dependabot.yml
     alteration: first-fit
@@ -113,10 +113,10 @@ swatches:
     alteration: always
 
   - path: CONTRIBUTING.md
-    alteration: first-fit
+    alteration: always
 
   - path: SUPPORT.md
-    alteration: first-fit
+    alteration: always
 
   - path: justfile
     alteration: first-fit
