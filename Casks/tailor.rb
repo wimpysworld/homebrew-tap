@@ -3,7 +3,7 @@ cask "tailor" do
   name "tailor"
   desc "Ready-to-wear project templates for GitHub repositories."
   homepage "https://github.com/wimpysworld/tailor"
-  version "0.1.0"
+  version "0.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,23 +13,23 @@ cask "tailor" do
 
   on_macos do
     on_intel do
-      url "https://github.com/wimpysworld/tailor/releases/download/#{version}/tailor_#{version}_darwin_amd64.tar.gz"
-      sha256 "63e108cc3303c75544a7e40e37b93f1fa7f5becd8bdc78d3b0a5ee2309bbb78b"
+      url "https://github.com/wimpysworld/tailor/releases/download/v#{version}/tailor_#{version}_darwin_amd64.tar.gz"
+      sha256 "1a1fa60aeff5de4dc1eacffb13853582d018a73186fe9ab5e1ef56e79fcf5858"
     end
     on_arm do
-      url "https://github.com/wimpysworld/tailor/releases/download/#{version}/tailor_#{version}_darwin_arm64.tar.gz"
-      sha256 "2c74b6c1254d4c41feb37f9672eda2ef9341ddb998aa1575df93c03f16f312d7"
+      url "https://github.com/wimpysworld/tailor/releases/download/v#{version}/tailor_#{version}_darwin_arm64.tar.gz"
+      sha256 "631c397e5bad07eb8ef335ad28f907dc3c65072aebae0e3a68a0b1e09c53da6d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/wimpysworld/tailor/releases/download/#{version}/tailor_#{version}_linux_amd64.tar.gz"
-      sha256 "c2e4925fec9a31c8840308d975173b6eba07f56f38bc3f2e570d6cb6293a9442"
+      url "https://github.com/wimpysworld/tailor/releases/download/v#{version}/tailor_#{version}_linux_amd64.tar.gz"
+      sha256 "04c0f81c8921e38c61c1a234a92824896f7701e76310a0d63202d2a385b85924"
     end
     on_arm do
-      url "https://github.com/wimpysworld/tailor/releases/download/#{version}/tailor_#{version}_linux_arm64.tar.gz"
-      sha256 "c4441717fc2d779cdd66aa78aacc077b7ddd73286af6092e011b551afdc94dda"
+      url "https://github.com/wimpysworld/tailor/releases/download/v#{version}/tailor_#{version}_linux_arm64.tar.gz"
+      sha256 "360ac4ea7da331e15b2383fe4d7870c679905f5b80110ccb87be8a3f0370de95"
     end
   end
 
