@@ -46,6 +46,9 @@ actions:
     - "robherley/go-test-action@*"
     - "softprops/action-gh-release@*"
 
+languages:
+  go: false
+
 labels:
   - name: bug
     color: d20f39

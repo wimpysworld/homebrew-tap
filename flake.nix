@@ -29,7 +29,7 @@
               jq
               just
               yq
-            ];
+            ] ++ import ./nix/loader.nix { inherit pkgs; };
           };
         }
       );
